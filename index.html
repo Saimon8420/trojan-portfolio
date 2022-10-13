@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To Trojan</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Tailwind CSS Link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Font -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+    </style>
+
+    <!-- Font awesome Icon link -->
+    <script src="https://kit.fontawesome.com/dbcae57485.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- Header Portion Started -->
+    <header>
+        <nav class="bg-gray-800">
+            <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+                <div class="relative flex h-16 items-center justify-between">
+                    <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+
+                        <!-- Mobile menu button-->
+                        <button onclick="toggleButton()" type="button"
+                            class="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+                            aria-controls="mobile-menu" aria-expanded="false">
+                            <span class="sr-only">Open main menu</span>
+                            <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                            </svg>
+
+                            <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                        </button>
+                    </div>
+
+                    <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+                        <div class="flex flex-shrink-0 items-center">
+                            <h1 class="text-4xl text-orange-400 font-bold">Trojan</h1>
+                        </div>
+
+                        <div class="hidden sm:ml-6 sm:block">
+                            <div class="flex space-x-4">
+
+                                <a href="#home" class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium"
+                                    aria-current="page">Home</a>
+                                <a href="#services-info"
+                                    class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Services</a>
+
+                                <a href="#"
+                                    class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Projects</a>
+
+                                <a href="#team-info"
+                                    class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Team</a>
+
+                                <a href="#contact-info"
+                                    class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact
+                                    Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <!-- Mobile menu, show/hide based on menu state. -->
+            <div class="sm:hidden" id="mobile-menu">
+                <div class="space-y-1 px-2 pt-2 pb-3">
+                    <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                    <a href="#home" class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium"
+                        aria-current="page">Home</a>
+
+                    <a href="#services-info"
+                        class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Services</a>
+
+                    <a href="#"
+                        class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Projects</a>
+
+                    <a href="#team-info"
+                        class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Team</a>
+
+                    <a href="#contact-info"
+                        class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Contact
+                        Us</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Header Portion Finished -->
+
+    <main>
+        <!-- Home Information -->
+        <div class="home-info">
+            <h3 class="p-6 text-xl font-bold">Welcome to trojan. Trojan is a well-known established software farm.
+                Located at
+                Dhaka,Bangladesh. We
+                provides our services all over the world. We have a large and experienced developer Team. We have over
+                3years of experiences, and over 100 running clients. We offers best services at affordable price.</h3>
+            <img class="w-1/2 mx-auto mb-6" src="img/hero.png" alt="">
+            <div class="scrolling-words-container">
+                <ul class="t">
+                    <li class="text-red-500">repeat.</li>
+                    <li class="text-green-400">Develop.</li>
+                    <li class="text-orange-400">design.</li>
+                    <li class="text-sky-400">Sketch.</li>
+                    <li class="text-gray-400">Imagine.</li>
+                </ul>
+            </div>
+            <div class="more-info">
+                <div class="scroll-container">
+                    <h3 class="text-3xl font-bold">Technologies We Use</h3>
+                </div>
+                <div class="more-info-img">
+                    <img src="img/More Image/c (1).png" alt="">
+                    <img src="img/More Image/c.png" alt="">
+                    <img src="img/More Image/css3.png" alt="">
+                    <img src="img/More Image/html.png" alt="">
+                    <img src="img/More Image/java-script.png" alt="">
+                    <img src="img/More Image/java.png" alt="">
+                    <img src="img/More Image/python.png" alt="">
+                </div>
+            </div>
+            <img class="w-full" src="img/bg-bottom.png" alt="" srcset="">
+        </div>
+        <!-- Home Information End-->
+
+        <!-- Service Information -->
+        <div id="services-info" class="services-info text-center mt-5">
+            <img class="w-full" src="img/bg-top.png" alt="" srcset="">
+            <div class="our-services">
+                <div class="div1"></div>
+
+                <div>
+                    <h3 class="text-3xl font-bold">Our Services</h3>
+                </div>
+
+                <div class="div2"></div>
+            </div>
+
+            <div class="services p-6">
+                <div class="service p-2">
+                    <img src="img/More Image/frontend-designer.svg" alt="">
+                    <h3>Frontend Design</h3>
+                </div>
+                <div class="service p-2">
+                    <img src="img/More Image/Hand-coding.svg" alt="">
+                    <h3>Frontend Development</h3>
+                </div>
+                <div class="service p-2">
+                    <img src="img/More Image/mobile-application-development.jpg" alt="">
+                    <h3>Mobile Application Development</h3>
+                </div>
+                <div class="service p-2">
+                    <img src="img/More Image/Software Developer.svg" alt="">
+                    <h3>Software Development</h3>
+                </div>
+                <div class="service p-2">
+                    <img src="img/More Image/taxi-soft-development.png" alt="">
+                    <h3>Full-Stack Development</h3>
+                </div>
+            </div>
+            <img class="w-full" src="img/bg-bottom.png" alt="">
+        </div>
+        <!-- Service Information End-->
+
+        <!-- Our Teams Info -->
+        <div id="team-info" class="team-info text-center mt-5">
+            <img class="w-full" src="img/bg-top.png" alt="" srcset="">
+            <div class="info-text">
+                <h3 class="text-3xl font-bold">Our Team Member's</h3>
+            </div>
+            <div class="members-info">
+                <div class="member">
+                    <div class="each-info">
+                        <img src="img/team-1.jpg" alt="">
+                        <h3>Md.Latiful Kabir</h3>
+                        <h4>Frontend Developer</h4>
+                    </div>
+                    <hr>
+                    <div class="social-link">
+                        <a href=""><img src="img/Social Icon/facebook.png" alt=""></a>
+                        <a href=""><img src="img/Social Icon/instagram.png" alt=""></a>
+                        <a href=""><img src="img/Social Icon/github.png" alt=""></a>
+                        <a href=""><img src="img/Social Icon/linkedin.png" alt=""></a>
+                        <a href=""><img src="img/Social Icon/gmail.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="each-info">
+                        <img src="img/team-2.jpg" alt="">
+                        <h3>Naimul Zannat Angel</h3>
+                        <h4>UI/UX Designer</h4>
+                    </div>
+                    <hr>
+                    <div class="social-link">
+                        <a href=""><img src="img/Social Icon/facebook.png" alt=""></a>
+                        <a href=""><img src="img/Social Icon/instagram.png" alt=""></a>
+                        <a href=""><img src="img/Social Icon/github.png" alt=""></a>
+                        <a href=""><img src="img/Social Icon/linkedin.png" alt=""></a>
+                        <a href=""><img src="img/Social Icon/gmail.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="each-info">
+                        <img src="img/team-3.jpg" alt="">
+                        <h3>Mahamudunnobi Sykot</h3>
+                        <h4>Backend Developer</h4>
+                    </div>
+                    <hr>
+                    <div class="social-link">
+                        <a href=""><img src="img/Social Icon/facebook.png" alt=""></a>
+                        <a href=""><img src="img/Social Icon/instagram.png" alt=""></a>
+                        <a href=""><img src="img/Social Icon/github.png" alt=""></a>
+                        <a href=""><img src="img/Social Icon/linkedin.png" alt=""></a>
+                        <a href=""><img src="img/Social Icon/gmail.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <img class="w-full" src="img/bg-bottom.png" alt="">
+        </div>
+        <!-- Our Teams Info End -->
+
+        <!-- Contact Us -->
+        <div id="contact-info" class="contact-info text-center mt-5">
+            <img class="w-full" src="img/bg-top.png" alt="">
+            <div class="contact">
+
+                <div class="address">
+                    <h4 class="text-xl font-bold">ADDRESS</h4>
+                    <p><img src="img/Contact Icon/placeholder.png" alt="">Dhaka,Bangladesh
+                    </p>
+                    <p><img src="img/Contact Icon/phone-call.png" alt=""> 01521-333567,01957009796</p>
+                    <p><img src="img/Contact Icon/message.png" alt=""> info_trojan@gmail.com</p>
+                    <div>
+                        <p style="color:rgb(5, 41, 247);">Follow Us On</p>
+                        <div class="social-link">
+                            <a href=""><img src="img/Social Icon/facebook.png" alt=""></a>
+                            <a href=""><img src="img/Social Icon/instagram.png" alt=""></a>
+                            <a href=""><img src="img/Social Icon/github.png" alt=""></a>
+                            <a href=""><img src="img/Social Icon/linkedin.png" alt=""></a>
+                            <a href=""><img src="img/Social Icon/gmail.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="quick-links">
+                    <h4 class="text-xl font-bold">QUICK LINKS</h4>
+                    <a href="">About Us</a>
+                    <a href="">Privacy Police</a>
+                    <a href="">Career</a>
+                    <a href="">Terms & Condition</a>
+                    <a href="">Contact Us</a>
+                </div>
+
+                <div class="gallery">
+                    <h4 class="text-xl font-bold">GALLERY</h4>
+                    <div class="gallery-img">
+                        <img src="img/portfolio-1.jpg" alt="">
+                        <img src="img/portfolio-2.jpg" alt="">
+                        <img src="img/portfolio-3.jpg" alt="">
+                        <img src="img/portfolio-4.jpg" alt="">
+                        <img src="img/portfolio-5.jpg" alt="">
+                        <img src="img/portfolio-6.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="newsletter">
+                    <h4 class="text-xl font-bold">NEWSLETTER</h4>
+                    <p><input type="text" placeholder="Enter your email"> <button><img
+                                src="https://img.icons8.com/fluency/40/000000/filled-sent.png" /></button></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
